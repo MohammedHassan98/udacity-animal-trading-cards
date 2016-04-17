@@ -5,6 +5,8 @@
 
   /* Makes card smaller than viewport, looks more like a card than a screen. */
   margin: 10%;
+  /* More appropriate width for a card. */
+  max-width: 500px;
 
   /* Makes card float out of page. */
   border: 1px solid #ddd;
