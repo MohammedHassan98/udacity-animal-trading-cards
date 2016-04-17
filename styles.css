@@ -26,8 +26,8 @@ h3 {
 .image {
   /* Spacing and sizing to match prototype's. */
   margin-bottom: 3%;
-  /* Image to fill whole width of card. */
-  width: 100%;
+  /* Image width is at most 300px. Hmm. Doesn't seem to work. */
+  max-width: 300px;
 }
 
 .info {
