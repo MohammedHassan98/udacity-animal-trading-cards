@@ -79,11 +79,13 @@ h3 {
   /* I still needed to explicitly tell child elements to inherit. */
   margin: 0;
 }
+
 .footnote p {
   margin: inherit;
   /* Is there not a better way? */
   /* Can we avoid typing that "inherit"? */
 }
+
 .footnote p a {
   /* The default blue color for links is too jarring in the footnote. */
   color: inherit;
