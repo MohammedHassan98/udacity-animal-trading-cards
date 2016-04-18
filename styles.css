@@ -11,15 +11,15 @@
   /* Makes card float out of page. */
   border: 1px solid #ddd;
   padding: 3%;
-  box-shadow: 0px 5px 5px 1px #eee;
+  box-shadow: 0 5px 5px 1px #eee;
 
   /* Colors card background, but leaves important info clear agaisnt white. */
-  background: linear-gradient(0deg, #eeeeff, white 30%, white 90%, #eeeeff);
+  background: linear-gradient(0, #eeeeff, white 30%, white 90%, #eeeeff);
 }
 
 h3 {
   /* Spacing and sizing to match prototype's. */
-  margin: 0% 0% 2% 1%;
+  margin: 0 0 2% 1%;
   font-size: 200%;
 }
 
@@ -40,13 +40,13 @@ h3 {
 .interesting-fact {
   font-style: italic;
   /* Spacing and sizing to match prototype's. */
-  margin: 0%;
+  margin: 0;
 }
 
 .facts-list {
   font-style: italic;
   /* Style the list to match prototype's. */
-  padding: 0%;
+  padding: 0;
   list-style: none;
 }
 
@@ -77,7 +77,7 @@ h3 {
 
   /* Experimenting with cascading rules. Didn't work! */
   /* I still needed to explicitly tell child elements to inherit. */
-  margin: 0%;
+  margin: 0;
 }
 .footnote p {
   margin: inherit;
