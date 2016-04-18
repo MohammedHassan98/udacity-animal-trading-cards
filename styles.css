@@ -1,6 +1,6 @@
 .card {
   /* Closest font I can find that looks like prototype's. */
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
 
   /* Makes card smaller than viewport, looks more like a card than a screen. */
